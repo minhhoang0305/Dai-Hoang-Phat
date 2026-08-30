@@ -1,0 +1,108 @@
+# ==========================================
+# Environment & Secrets
+# ==========================================
+.env
+.env.*
+!.env.example
+*.env
+appsettings.Development.json
+appsettings.Local.json
+appsettings.Secret.json
+secrets.json
+
+# ==========================================
+# .NET / C# / F#
+# ==========================================
+bin/
+obj/
+out/
+publish/
+[Bb]in/
+[Oo]bj/
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+*.suo
+.vs/
+.idea/
+
+# NuGet Packages
+*.nupkg
+**/packages/
+!**/packages/build/
+
+# ==========================================
+# Python
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ==========================================
+# Node.js / JavaScript / Frontend
+# ==========================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Build outputs
+dist/
+build/
+.next/
+.nuxt/
+.vuepress/dist/
+.out/
+
+# Dependency directories
+web_modules/
+
+# ==========================================
+# OS / System Files
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ==========================================
+# IDEs & Code Editors
+# ==========================================
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.swp
+*.swo
+
+# ==========================================
+# Logs & Temporary Files
+# ==========================================
+logs/
+*.log
+temp/
+tmp/
+*.tmp
